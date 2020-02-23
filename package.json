@@ -1,23 +1,20 @@
 {
   "name": "webdb-iii-challenge",
   "version": "1.0.0",
-  "description": "## Topics",
+  "description": "Data modelling with knex",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon"
+    "server": "nodemon",
+    "seed": "npx knex seed:run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webdb-iii-challenge.git"
+    "url": "git+https://github.com/chingsley/webdb-iii-challenge.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LambdaSchool/webdb-iii-challenge/issues"
-  },
-  "homepage": "https://github.com/LambdaSchool/webdb-iii-challenge#readme",
+  "homepage": "https://github.com/chingsley/webdb-iii-challenge#readme",
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.19.0",
